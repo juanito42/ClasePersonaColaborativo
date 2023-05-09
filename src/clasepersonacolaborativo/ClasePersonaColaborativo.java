@@ -63,5 +63,9 @@ class Persona {
         private LocalDate generarFecha(String fechaNacimiento) {
             throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         }
+        public void setFechaNacimiento(String fechaNacimiento) throws IllegalArgumentException {
+        this.fechaNacimiento = generarFecha(fechaNacimiento);
     }
+    }
+
 }
