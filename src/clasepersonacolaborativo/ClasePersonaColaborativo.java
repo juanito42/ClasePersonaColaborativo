@@ -60,8 +60,21 @@ class Persona {
 
     }
 
+        public String getNombre() {
+            return nombre;
+        }
+
+        public String getApellidos() {
+            return apellidos;
+        }
+
+        public LocalDate getFechaNacimiento() {
+            return fechaNacimiento;
+        }
+
         private LocalDate generarFecha(String fechaNacimiento) {
             throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         }
     }
+
 }
